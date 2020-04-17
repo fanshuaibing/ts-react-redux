@@ -5,6 +5,7 @@ import { Dispatch } from "redux";
 function Counter(props: CounterProps) {
   return (
     <div className="App">
+      <h1>ts-react-redux</h1>
       <div>{props.n}</div>
       <button onClick={props.add}>+1</button>
       <button onClick={props.minus}>-1</button>
